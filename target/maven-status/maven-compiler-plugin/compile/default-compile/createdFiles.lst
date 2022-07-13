@@ -1,0 +1,5 @@
+com\test\test\response\GenericResponse.class
+com\test\test\TestApplication.class
+com\test\test\controller\ConversionController.class
+com\test\test\service\ValidationService.class
+com\test\test\response\GenericResponse$GenericResponseBuilder.class
