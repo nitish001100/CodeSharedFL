@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "f85788ea-a1ab-4620-9f87-b8d9add7efed",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9121753"
+	},
+	"item": [
+		{
+			"name": "validate_ssn",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetCurrencies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Check",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "LQmLPYJti28DIQ6CvE0fnLvera9wtuY1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.apilayer.com/exchangerates_data/convert?to=USD&from=GBP&amount=10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"apilayer",
+						"com"
+					],
+					"path": [
+						"exchangerates_data",
+						"convert"
+					],
+					"query": [
+						{
+							"key": "to",
+							"value": "USD"
+						},
+						{
+							"key": "from",
+							"value": "GBP"
+						},
+						{
+							"key": "amount",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CurrencyConversion",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
